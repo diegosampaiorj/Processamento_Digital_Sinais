@@ -9,6 +9,9 @@ from IPython.display import display
 wavesax = thinkdsp.read_wave("C:\som sax.wav")
 waveguitar = thinkdsp.read_wave('C:\som guitarra.wav')
 
+wavesax = thinkdsp.read_wave("..\Sons\som sax.wav")
+waveguitar = thinkdsp.read_wave('..\Sons\som guitarra.wav')
+
 wavesax.make_audio()
 waveguitar.make_audio()
 
